@@ -1,0 +1,56 @@
+Initialize engine version: 4.3.4f1 (e444f76e01cd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvd3dum.dll 21.21.13.7849]
+    Renderer: NVIDIA GeForce GTX 660
+    Vendor:   NVIDIA
+    VRAM:     1989 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Sauli\Desktop\bricks\Bricks_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Sauli\Desktop\bricks\Bricks_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Sauli\Desktop\bricks\Bricks_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Sauli\Desktop\bricks\Bricks_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Sauli\Desktop\bricks\Bricks_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Sauli\Desktop\bricks\Bricks_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Sauli\Desktop\bricks\Bricks_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Sauli\Desktop\bricks\Bricks_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Sauli\Desktop\bricks\Bricks_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Sauli\Desktop\bricks\Bricks_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+- Completed reload, in  0.040 seconds
+desktop: 1920x1080 144Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Users\Sauli\Desktop\bricks\Bricks_Data\Managed\System.dll (this message is harmless)
+UnloadTime: 0.325355 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 243.
+Total: 0.539864 ms (FindLiveObjects: 0.011632 ms CreateObjectMapping: 0.007868 ms MarkObjects: 0.065686 ms  DeleteObjects: 0.063634 ms)
+
+UnloadTime: 1.491981 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 82 unused Assets to reduce memory usage. Loaded Objects now: 374.
+Total: 0.644210 ms (FindLiveObjects: 0.013342 ms CreateObjectMapping: 0.009237 ms MarkObjects: 0.130347 ms  DeleteObjects: 0.141979 ms)
+
+UnloadTime: 1.417741 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 104 unused Assets to reduce memory usage. Loaded Objects now: 377.
+Total: 0.669869 ms (FindLiveObjects: 0.013684 ms CreateObjectMapping: 0.009237 ms MarkObjects: 0.147111 ms  DeleteObjects: 0.152243 ms)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:InternalGetGameObject ()
+  at UnityEngine.Component.get_gameObject () [0x00000] in <filename unknown>:0 
+  at PommiKontrolli.pallonNopeus (UnityEngine.Collider2D obj, Vector2 suunta) [0x00000] in <filename unknown>:0 
+  at PommiKontrolli.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 2.269276 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 96 unused Assets to reduce memory usage. Loaded Objects now: 281.
+Total: 1.534404 ms (FindLiveObjects: 0.014369 ms CreateObjectMapping: 0.014026 ms MarkObjects: 0.743424 ms  DeleteObjects: 0.319539 ms)
+
